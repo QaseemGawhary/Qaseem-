@@ -1,0 +1,115 @@
+
+<!-- saved from url=(0063)file:///C:/Users/Qaseem%20Gawhary/Desktop/student_register.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="viweport" content="width=device-width,initial-scale=1">
+<style>
+
+body{
+	font-family:calibri, Helvetica, sans-serif;
+	background-color:gray;
+	
+}
+
+.container{
+	padding:10px;
+	background-color:gray;
+	}
+	
+	input[type=text],input[type=Password], textarea{
+	
+			width: 100%;
+			padding: 15px;
+			margin: 5px 0 22px 0 ;
+			display: inline-black;
+			border:none;
+			background: #f1f1f1;
+}
+ input[type=text]:focus,input[type=password]:focus{
+background-color: white;
+outline:none;
+}
+
+div{
+padding:10px 0;
+}
+hr{
+border: 2px solid #f1f1f1;
+margin-bottom:25px;
+}
+
+.registerbtn{
+background-color: #CAF99;
+color: red;
+padding: 16px 20px;
+margin: 12px 0;
+border:none;
+cursor: pointer;
+width:100%;
+opacity:0.9;
+}
+.registerbtn:hover{
+opacity:1;
+}
+</style>
+
+
+
+
+</head>
+<body>
+<form>
+<div class="container">
+<center> 
+	<h1> Student Registeration Form </h1> 
+</center>
+<hr>
+<label> Firstname</label>
+<input type="text" name="First name" placeholder="First name" size="15" required="">
+<label> Middlename: </label>
+<input type="text" name="Middle name" placeholder="Middle name" size="15" required="">
+<label> Lastname: </label>
+<input type="text" name="Last name" placeholder="Last name" size="15" required="">
+<div>
+
+<label>
+
+course:
+
+</label>
+
+<select>
+<option value="Course"> Course</option>
+<option value="HTML"> HTML </option>
+<option value="PHP"> PHP</option>
+<option value="C#"> C# </option>
+<option value="MS Word"> MS Word </option>
+<option value="Javascript"> Javascript </option>
+<option value="Network"> Network </option>
+</select>
+</div>
+<div>
+<label> Gender: </label> <br>
+<input type="radio" value="Male" name="gender" checked=""> Male
+<input type="radio" value="Female" name="gender" checked=""> Female
+<input type="radio" value="Other" name="gender" checked=""> Other
+</div>
+<label>  Phone : </label>
+
+<input type="text" name="Country Code" placeholder="Country Code" value="+93" size="2">
+<input type="text" name=" Phone " placeholder="Phone no" size="10" required="">
+ Current Address :
+<textarea cols="80" rows="5" value="address" required=""> </textarea>
+<label for="email"><b>Email</b></label>
+<input type="text" placeholder="Enter Email" name="email" required="">
+<label for="psw"><b>Password</b></label>
+<input type="password" placeholder="Enter Password" name="psw" required="">
+<label for="psw-repeat"><b>Retype Password</b></label>
+<input type="password" placeholder="Retype Password" name="psw-repeat" required="">
+<button type="submit" class="registerbtn"> Register </button>
+
+
+
+
+
+
+</div></form></body></html>
